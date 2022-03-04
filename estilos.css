@@ -17,7 +17,7 @@
 }
 
 /* Configuracion de Cartas para Materias */
-#contenedorCarta2 .listaSesiones{
+#contenedorCarta2 .listaSesiones {
     padding-left: 135px;
 }
 
@@ -60,6 +60,22 @@
 }
 
 /* Configuracion de Testimonios */
+.testimoniosLanding {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.fondoTestimonios {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
 #testimonio h3 {
     color: white;
     margin-bottom: 0%;
@@ -73,10 +89,6 @@
 #carouselTestimonio {
     border: 0 solid;
     border-radius: 10px;
-}
-
-#testSet {
-    background-color: #240b36;
 }
 
 /* Configuracion de footer */
