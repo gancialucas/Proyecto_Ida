@@ -17,6 +17,10 @@
 }
 
 /* Configuracion de Cartas para Materias */
+#contenedorCarta2 .listaSesiones{
+    padding-left: 135px;
+}
+
 .card_review {
     border: 0 solid;
     border-radius: 10px;
