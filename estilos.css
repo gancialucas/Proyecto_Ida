@@ -1,6 +1,11 @@
 /* Configuracion de fuente */
+@font-face {
+    font-family: letraIdaWeb ;
+    src: url(fonts/otf/SFNSDisplay-Light.otf);
+}
+
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: letraIdaWeb;
 }
 
 /* Configuracion de NavBar */
@@ -18,7 +23,7 @@
 
 /* Configuracion de Cartas para Materias */
 #contenedorCarta2 .listaSesiones {
-    padding-left: 135px;
+    padding-left: 255px;
 }
 
 .card_review {
