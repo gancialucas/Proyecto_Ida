@@ -9,7 +9,10 @@
     <title>Ida</title>
 
     <!-- Meta (¡Hablar con Lu!)-->
-    <meta name="description" content="..." />
+    <meta name="description" content="GENERAR UN ESPACIO DE APRENDIZAJE, DONDE LAS PERSONAS SEAN MOTIVADAS A 
+        ADQUIRIR UNA RELACIÓN CRECIENTE CON CRISTO Y  SU REINO, PARA QUE SU 
+        TRANSFORMACIÓN DE VIDA INFLUENCIE SU ENTORNO." />
+
     <meta name="keywords" content="..." />
 
     <!-- Link CSS -->
@@ -79,10 +82,24 @@
     <!-- INICIO -->
     <main>
         <!-- CAROUSEL -->
-        <div id="test1" class="carousel carousel-slider">
+        <div id="test1" class="carousel carousel-slider hide-on-med-and-up">
             <a class="carousel-item" href="#!"><img src="images/fondoCarousel_1.jpg" /></a>
             <a class="carousel-item" href="#!"><img src="images/fondoCarousel_2.jpg" /></a>
             <a class="carousel-item" href="#!"><img src="images/fondoCarousel_3.jpg" /></a>
+        </div>
+
+        <div id="test1" class="slider hide-on-med-and-down">
+            <ul class="slides">
+                <li>
+                    <img src="images/fondoCarousel_1.jpg" />
+                </li>
+                <li>
+                    <img src="images/fondoCarousel_2.jpg" />
+                </li>
+                <li>
+                    <img src="images/fondoCarousel_3.jpg" />
+                </li>
+            </ul>
         </div>
 
         <!-- NAV & TABS -->
@@ -106,36 +123,6 @@
         </div>
 
         <!-- MATERIAS -->
-        <!-- <div class="row container valign-wrapper">
-            <div class="col s12 m7 l4">
-                <div class="card hoverable">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator responsive-img" src="images/Mateo 24 - Señales.png">
-                    </div>
-                    <div class="card-content center-align">
-                        <span class="card-title activator grey-text text-darken-4">Señales | Mateo 24</span>
-                    </div>
-                    <div class="card-reveal center">
-                        <span class="card-title grey-text text-darken-4"><u>Nuestra esencia</u></span>
-                        <div class="center">
-                            <p>Una aproximación a las palabras de Jesús sobre los últimos tiempos.</p>
-                            <img src="images/fotoPerfilEjemplo.jpg" alt="profesor" class="circle responsive-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l8 card_review hide-on-med-and-down">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui voluptatum delectus autem fuga
-                    optio dolore laboriosam, earum esse impedit. Unde reprehenderit, voluptates deleniti molestiae magni
-                    maiores consequatur voluptatum vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, deleniti magni minus aliquam itaque temporibus. Aliquam accusantium itaque hic. Nostrum
-                    quae totam rerum harum ipsam possimus doloribus, consequatur reprehenderit ipsa Lorem ipsum dolor,
-                    sit amet consectetur adipisicing elit. Esse doloremque neque fugiat aliquid aspernatur veritatis
-                    ratione.
-                </p>
-            </div>
-        </div> -->
-
         <div id="test2">
             <div id="contenedorCarta2" class="row container valign-wrapper card_review1">
                 <div class="col s12 m7 l4">
@@ -316,7 +303,7 @@
                 <div id="footerDivImgPc" class="col l6 s12 hide-on-med-and-down">
                     <img id="imgFooterPc" class="responsive-img" src="images/Logo 2.png" alt="logoAngular">
                 </div>
-                
+
                 <!-- redes para mobile -->
                 <div class="col l4 offset-l2 s12 hide-on-med-and-up">
                     <ul>
@@ -386,13 +373,23 @@
     </script>
 
     <!-- Carousel -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                indicators: false,
+                height: 600
+            });
+        });
+    </script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var elems = document.querySelectorAll(".carousel");
             var instances = M.Carousel.init(elems, {
                 duration: 150,
                 indicators: true,
-                fullWidth: true,
             });
         });
     </script>
@@ -401,22 +398,6 @@
     <script>
         var instance = M.Tabs.init(el, {
             swipeable: true,
-        });
-    </script>
-
-    <!-- Scrollspy -->
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.scrollspy');
-            var instances = M.ScrollSpy.init(elems);
-        });
-    </script> -->
-
-    <!-- Parallax -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var elems = document.querySelectorAll(".parallax");
-            var instances = M.Parallax.init(elems);
         });
     </script>
 </body>
