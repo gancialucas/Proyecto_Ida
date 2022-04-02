@@ -162,6 +162,23 @@ html {
 }
 
 /* Configuracion de footer */
+#redesFooterPc {
+    margin-left: 30px;   
+}
+
+#footerDivImgPc {
+    padding-left: 300px;
+    padding-top: 27px;
+}
+
+#imgFooterPc {
+    width: 130px;
+}
+
+#imgFooter {
+    width: 20%;
+}
+
 .page-footer ul li {
     padding: 10px;
 }
