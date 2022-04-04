@@ -1,186 +1,141 @@
-/* Configuracion de fuente */
+/* Configuracion de fuente y general*/
 html {
     scroll-behavior: smooth;
 }
 
 @font-face {
-    font-family: letraIdaWeb;
+    font-family: letraSEMWeb;
     src: url(fonts/otf/SFNSDisplay-Light.otf);
 }
 
 * {
-    font-family: letraIdaWeb;
+    font-family: letraSEMWeb;
 }
 
 /* Configuracion de NavBar */
-/* .navbar-fixed {
-    opacity: 90%;
-} */
-
-.nav-wrapper .buttons #R-but a {
-    margin-left: 0px;
-}
-
-.nav-wrapper .buttons #R-but a:hover {
+#registro:hover {
     background-color: #F6C667;
 }
 
-/* Configuracion de Cartas para Materias */
-#contenedorCarta2 .listaSesiones {
-    padding-left: 255px;
+.navbarConfig {
+    height: 100px;
 }
 
-/* Configuracion carta 1 */
-.card_review1 {
-    border: 0 solid;
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
+.navbar-fixed {
+    height: 100px;
 }
 
-.card_review1::after {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    background: #8A2387;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    filter: blur(8px);
-    z-index: -1;
+nav ul {
+    padding-top: 20px;
 }
 
-/* Configuracion carta 2 */
-.card_review2 {
-    border: 0 solid;
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
+.aFontSize {
+    font-size: 16px;
 }
 
-.card_review2::after {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    background: #FF0099;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #493240, #FF0099);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #493240, #FF0099);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    filter: blur(8px);
-    z-index: -1;
+.blockquote {
+    margin: 0;
+    border-left: 5px solid #ec49c4;
 }
 
-/* Configuracion carta 3 */
-.card_review3 {
-    border: 0 solid;
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
+nav .nav-wrapper a img {
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
 }
 
-.card_review3::after {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    background: #FC466B;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3F5EFB, #FC466B);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    filter: blur(8px);
-    z-index: -1;
+.sidenav a img {
+    margin-left: 105px;
 }
 
-#contenedorCarta2 {
-    border: 0 solid;
-    border-radius: 10px;
+.sidenav {
+    opacity: 85%;
 }
 
-#cardRad {
-    border-radius: 10px;
+/* Configuracion cuerpo materias*/
+.configSubservicio {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-#cardRad img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.presentacionService {
+    padding-top: 10%;
+    padding-bottom: 7%;
 }
 
-/* Configuracion de Testimonios */
-#test3 {
-    background: #FF0099;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #493240, #FF0099);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #493240, #FF0099);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.cuerpoPresentacionServicio {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.testimoniosLanding {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-.fondoTestimonios {
-    height: 100%;
-    min-height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-}
-
-#testimonio h3 {
-    color: white;
-    margin-bottom: 0%;
-}
-
-#testimonio p {
-    color: white;
-    margin-top: 0%;
-}
-
+/* Configuracion de testimonios */
 #carouselTestimonio {
     border: 0 solid;
     border-radius: 10px;
 }
 
+/* #nosotros { */
+/* background: #bdc3c7; */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* } */
+
+#nosotros {
+    background: #DA4453;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#cardNosotros {
+    background-color: white;
+    border: 0 solid;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: justify;
+}
+
 /* Configuracion de footer */
-#redesFooterPc {
-    margin-left: 30px;   
+h3,
+.contactoFooter {
+    margin-bottom: 0;
 }
 
-#footerDivImgPc {
-    padding-left: 300px;
-    padding-top: 27px;
+p,
+.contactoFooter {
+    margin-top: 0;
 }
 
-#imgFooterPc {
-    width: 130px;
+h5,
+.contactoFooter {
+    margin-top: 0;
 }
 
-#imgFooter {
-    width: 20%;
+.contactoFooterNos {
+    margin-bottom: 0;
+}
+
+.page-footer .listFooter {
+    padding-left: 0;
+}
+
+iframe {
+    width: 150%;
+    border-radius: 10px;
+}
+
+#imagenFooter {
+    width: 125px;
 }
 
 .page-footer ul li {
     padding: 10px;
+    padding-left: 100px;
 }
 
 .page-footer ul li a img {
