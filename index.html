@@ -75,9 +75,9 @@
             <blockquote class="blockquote">
                 <li><a style="padding-left: 0;" href="#">Iniciar Sesión</a></li>
             </blockquote>
-            <blockquote class="blockquote">
+            <!-- <blockquote class="blockquote">
                 <li><a style="padding-left: 0;" href="#">Registrarse</a></li>
-            </blockquote>
+            </blockquote> -->
         </ul>
     </header>
 
@@ -86,22 +86,22 @@
         <!-- CAROUSEL -->
         <!-- Para Mobile -->
         <div class="carousel carousel-slider hide-on-med-and-up">
-            <a class="carousel-item" href="#!"><img src="images/fondoCarousel_1.jpg" /></a>
-            <a class="carousel-item" href="#!"><img src="images/fondoCarousel_2.jpg" /></a>
-            <a class="carousel-item" href="#!"><img src="images/fondoCarousel_3.jpg" /></a>
+            <a class="carousel-item" href="#!"><img src="images/carousel_nuevo1.jpg" /></a>
+            <a class="carousel-item" href="#!"><img src="images/carousel_nuevo2.jpg" /></a>
+            <a class="carousel-item" href="#!"><img src="images/carousel_nuevo3.jpg" /></a>
         </div>
 
         <!-- Para dispositivos amplios -->
         <div class="slider hide-on-med-and-down">
             <ul class="slides">
                 <li>
-                    <img src="images/fondoCarousel_1.jpg">
+                    <img src="images/carousel_nuevo1.jpg">
                 </li>
                 <li>
-                    <img src="images/fondoCarousel_2.jpg">
+                    <img src="images/carousel_nuevo2.jpg">
                 </li>
                 <li>
-                    <img src="images/fondoCarousel_3.jpg">
+                    <img src="images/carousel_nuevo3.jpg">
                 </li>
             </ul>
         </div>
@@ -310,7 +310,7 @@
             var elems = document.querySelectorAll(".carousel");
             var instances = M.Carousel.init(elems, {
                 duration: 500,
-                indicators: true,
+                // indicators: true,
                 fullWidth: true,
             });
         });
@@ -321,7 +321,7 @@
             var elems = document.querySelectorAll('.slider');
             var instances = M.Slider.init(elems, {
                 indicators: false,
-                height: 600
+                height: 400
             });
         });
     </script>
