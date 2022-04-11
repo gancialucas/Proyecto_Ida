@@ -112,6 +112,23 @@
             </div>
         </div>
 
+        <div class="container">
+            <h5>PROGRAMA</h5>
+
+            <ul class="collapsible expandable" style="border-radius: 10px;">
+                <li>
+                    <div style="border-radius: 10px;" class="collapsible-header"><i
+                            class="material-icons">add_circle_outline</i>Sesiones</div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                    <div class="collapsible-body"><span>Sesión # - Presentación de la sesión</span></div>
+                </li>
+            </ul>
+        </div>
+
         <br><br>
 
         <div class="configSubservicio grey lighten-3">
@@ -261,13 +278,15 @@
         });
     </script>
 
-    <!-- Scrollspy -->
-    <!-- <script>
+    <!-- Collapsible -->
+    <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.scrollspy');
-            var instances = M.ScrollSpy.init(elems);
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems, {
+                accordion: false
+            });
         });
-    </script> -->
+    </script>
 
     <!-- Parallax -->
     <script>
