@@ -101,6 +101,10 @@ nav .nav-wrapper a img {
 }
 
 /* Configuracion de footer */
+.page-footer {
+    padding-top: 0;
+}
+
 h3,
 .contactoFooter {
     margin-bottom: 0;
