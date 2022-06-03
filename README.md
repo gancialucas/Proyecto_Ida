@@ -1,6 +1,16 @@
-# Pagina-Ida
-Repositorio remoto para la pagina web del Instituto de Discipulado Angular.
+# Proyecto Web
 
-# Colaboradores
-1. Emanuel Fuentes
-2. Lucas Gancia
+Página web para el enmaquetado del lobby.
+
+## Instalación 🔧
+
+-No requiere instalación
+
+## Construido con 🛠️
+
+* HTML y CSS
+* [Materialize](https://materializecss.com/) - FrameWork utilizado para Front
+
+## Autor ✒️
+
+* **Lucas Gancia** - [gancia lucas](https://github.com/gancialucas)
